@@ -10,7 +10,7 @@ body{
     font-family: font-family: 'Montserrat', sans-serif;
     background-color: #F3EAE3;
     border: 10px solid red;
-    
+    height: 100%;
 }
 
 .card {
