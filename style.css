@@ -1,51 +1,61 @@
  @import url('https://fonts.googleapis.com/css2?family=Bungee&family=Cinzel:wght@400;500;600;700&family=Coming+Soon&family=DM+Serif+Display&family=Montserrat:wght@500;700&family=Open+Sans:wght@300;400;500;600;700;800&family=Pattaya&family=Space+Mono&family=Tinos&display=swap');
  @import url('https://fonts.googleapis.com/css2?family=Bungee&family=Cinzel:wght@400;500;600;700&family=Coming+Soon&family=DM+Serif+Display&family=Fraunces:wght@700&family=Montserrat:wght@500;700&family=Open+Sans:wght@300;400;500;600;700;800&family=Pattaya&family=Space+Mono&family=Tinos&display=swap');
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 
-body{
+body {
     display: flex;
+    background-color: #F3EAE3;
     justify-content: center;
     align-items: center;
-    font-family: font-family: 'Montserrat', sans-serif;
-    background-color: #F3EAE3;
-    border: 10px solid red;
-    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+    height: 100vh;
 }
 
 .card {
     display: flex;
+    justify-content: center;
+    align-items: center;
     width: 600px;
     height: 450px;
     grid-template-columns: 25% 25%;
-    border-radius: 16px 16px ;
+    border-radius: 10px 10px ;
     background-color: white;
 }
 
 .card img{
     height: 450px;
-    border-radius: 16px 0px 0px 16px; 
+    border-radius: 10px 0px 0px 10px; 
 }
 
 .info {
-    padding: 5px 15px ;
+
+    padding: 24px;
 }
 
 .info h3 {
+    padding-bottom: 14px;
     font-size: 14px;
-    font-weight: 200px;
+    font-weight: 700;
     color: #cdcdd5;
-    
 }
 
 .info h2 {
-    font-size: 35px;
+  padding-bottom: 5px;
+  font-size: 35px;
   font-weight: 700;
   font-family: 'Fraunces', serif;
 }
 
 .info p{
+    padding: 15px 5px;
     font-size: 15px;
+    font-weight: 200;
     color: #a9aaaf;
     font-family: 'Montserrat', sans-serif;
 }
@@ -59,6 +69,7 @@ body{
 .info-f h3 {
     font-size: 25px;
     font-family: 'Montserrat', sans-serif;
+    padding-right: 15px;
     color: #458670;
 }
 
@@ -76,5 +87,4 @@ body{
     border-radius: 5px 5px;
     color: white;
     background-color: #458670;
-    
 }
