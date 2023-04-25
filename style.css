@@ -5,22 +5,21 @@
 
 body{
     display: flex;
-    background-color: #F3EAE3;
     justify-content: center;
+    align-items: center;
     font-family: font-family: 'Montserrat', sans-serif;
+    background-color: #F3EAE3;
+    border: 10px solid red;
     
 }
 
 .card {
-    
     display: flex;
-    align-items: center;
-    
     width: 600px;
     height: 450px;
-    background-color: white;
     grid-template-columns: 25% 25%;
     border-radius: 16px 16px ;
+    background-color: white;
 }
 
 .card img{
@@ -29,7 +28,7 @@ body{
 }
 
 .info {
-    padding: 24px 24px;
+    padding: 5px 15px ;
 }
 
 .info h3 {
@@ -42,13 +41,40 @@ body{
 .info h2 {
     font-size: 35px;
   font-weight: 700;
-  font-family: font-family: 'Fraunces', serif;
+  font-family: 'Fraunces', serif;
 }
 
 .info p{
-    font-size: 20px;
+    font-size: 15px;
     color: #a9aaaf;
-    font-family: font-family: font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
+.info-f {
+    display: flex;
+    justify-content: flex-start;
+    
+}
 
+.info-f h3 {
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+    color: #458670;
+}
+
+.info-f h4 {
+    font-size: 15px;
+    font-weight: 200;
+    text-decoration-line: line-through;
+    color: #a1a4ad;
+    
+}
+ .card footer button{
+    width: 200px;
+    height: 40px;
+    border: #458670;
+    border-radius: 5px 5px;
+    color: white;
+    background-color: #458670;
+    
+}
