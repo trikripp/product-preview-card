@@ -26,16 +26,17 @@ body {
     grid-template-columns: 25% 25%;
     border-radius: 10px 10px ;
     background-color: white;
+    line-height: 25px;
 }
 
-.card img{
+.card img {
     height: 450px;
     border-radius: 10px 0px 0px 10px; 
 }
 
 .info {
-
-    padding: 24px;
+  padding-left: 25px;
+  padding-right: 24px;
 }
 
 .info h3 {
@@ -46,43 +47,40 @@ body {
 }
 
 .info h2 {
-  padding-bottom: 5px;
-  font-size: 35px;
-  font-weight: 700;
-  font-family: 'Fraunces', serif;
+    padding-bottom: 5px;
+    line-height: 35px;
+    font-size: 35px;
+    font-weight: 700;
+    font-family: 'Fraunces', serif;
 }
 
-.info p{
+.info p {
     padding: 15px 5px;
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 200;
     color: #a9aaaf;
     font-family: 'Montserrat', sans-serif;
 }
 
 .info-f {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
+  display: flex;
 }
 
 .info-f h3 {
     font-size: 35px;
     font-family: 'Fraunces', serif;
-    padding-right: 15px;
     color: #458670;
 }
 
-.info-f h4 {
+.info-f span {
+    padding-left: 24px;
     font-size: 15px;
     font-weight: 200;
     text-decoration-line: line-through;
     color: #a1a4ad;
-    
 }
 
-button{
+button {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -97,7 +95,7 @@ button{
     background-color: #458670;
 }
 
-button svg {
-
+.card button img {
+    width: 18px;
+    height: 16px;
 }
-
