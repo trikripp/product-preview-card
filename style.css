@@ -29,7 +29,7 @@ body {
     line-height: 25px;
 }
 
-.card img {
+.card-img {
     height: 450px;
     border-radius: 10px 0px 0px 10px; 
 }
@@ -95,7 +95,6 @@ button {
     background-color: #458670;
 }
 
-.card button img {
+.btn-icon {
     width: 18px;
-    height: 16px;
 }
