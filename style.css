@@ -1,53 +1,100 @@
  @import url('https://fonts.googleapis.com/css2?family=Bungee&family=Cinzel:wght@400;500;600;700&family=Coming+Soon&family=DM+Serif+Display&family=Montserrat:wght@500;700&family=Open+Sans:wght@300;400;500;600;700;800&family=Pattaya&family=Space+Mono&family=Tinos&display=swap');
  @import url('https://fonts.googleapis.com/css2?family=Bungee&family=Cinzel:wght@400;500;600;700&family=Coming+Soon&family=DM+Serif+Display&family=Fraunces:wght@700&family=Montserrat:wght@500;700&family=Open+Sans:wght@300;400;500;600;700;800&family=Pattaya&family=Space+Mono&family=Tinos&display=swap');
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 
-body{
+body {
     display: flex;
     background-color: #F3EAE3;
     justify-content: center;
-    font-family: font-family: 'Montserrat', sans-serif;
-    
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    height: 100vh;
 }
 
 .card {
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 600px;
     height: 450px;
-    align-items: center;
-    background-color: white;
     grid-template-columns: 25% 25%;
-    display: flex;
-    border-radius: 16px 16px ;
+    border-radius: 10px 10px ;
+    background-color: white;
+    line-height: 25px;
 }
 
-.card img{
+.card-img {
     height: 450px;
-    border-radius: 16px 0px 0px 16px; 
+    border-radius: 10px 0px 0px 10px; 
 }
 
 .info {
-    padding: 24px 24px;
+  padding-left: 25px;
+  padding-right: 24px;
 }
 
 .info h3 {
+    padding-bottom: 14px;
     font-size: 14px;
-    font-weight: 200px;
+    font-weight: 700;
     color: #cdcdd5;
-    
 }
 
 .info h2 {
+    padding-bottom: 5px;
+    line-height: 35px;
     font-size: 35px;
-  font-weight: 700;
-  font-family: font-family: 'Fraunces', serif;
+    font-weight: 700;
+    font-family: 'Fraunces', serif;
 }
 
-.info p{
-    font-size: 20px;
+.info p {
+    padding: 15px 5px;
+    font-size: 14px;
+    font-weight: 200;
     color: #a9aaaf;
-    font-family: font-family: font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
+.info-f {
+  display: flex;
+}
 
+.info-f h3 {
+    font-size: 35px;
+    font-family: 'Fraunces', serif;
+    color: #458670;
+}
+
+.info-f span {
+    padding-left: 24px;
+    font-size: 15px;
+    font-weight: 200;
+    text-decoration-line: line-through;
+    color: #a1a4ad;
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 250px;
+    height: 50px;
+    font-size: 15px;
+    font-weight: 700;
+    border: #458670;
+    border-radius: 5px 5px;
+    color: white;
+    background-color: #458670;
+}
+
+.btn-icon {
+    width: 18px;
+}
